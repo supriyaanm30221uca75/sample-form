@@ -1,0 +1,48 @@
+.f
+{
+    padding-left: 5%;
+    
+}
+h1{
+    padding-left: 5%;
+}
+::placeholder
+{
+padding: 5%;
+
+}
+input[type=submit]:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+   
+}
+input[type=reset]:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]
+{
+    padding: 5px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+input[type=reset]
+{
+    padding: 5px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+textarea
+{
+   resize: none;
+
+}
+input[tye=text]
+{
+    padding: 5px;
+}

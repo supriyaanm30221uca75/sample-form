@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+
+<body>
+    <h1>The Application form</h1>
+    <form action="next.php" method="post">
+       <div class="f">
+        <label>First Name :</label><br>
+        <input type="text" placeholder="enter your first name"><br><br>
+        <label>Surname :</label><br>
+        <input type="text" placeholder="enter your surname"><br><br>
+        <label>Gender :</label><br>
+        <select name="gen" id="gen">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">others</option>
+        </select><br><br>
+        <label>DOB :</label><br>
+        <input type="date" placeholder="enter your dob"><br><br>
+        <label>Address :</label><br>
+        <textarea></textarea><br><br>
+        <label>E-mail id :</label><br>
+        <input type="email"><br><br>
+        <label>Phone no :</label><br>
+        <input type="number"><br><br>
+        <label>Education :</label>
+        <input type="checkbox" name="edu" value="BCA">BCA
+        <input type="checkbox" name="edu" value="BBA">BBA
+        <input type="checkbox" name="edu" value="B.com">B.com <br><br>
+        <label>Are you a student ? :</label>
+        <input type="radio" name="std" value="YES">YES
+        <input type="radio" name="std" value="NO">NO <br><br>
+        <input type="submit">
+        <input type="reset">
+    </div>
+
+
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
